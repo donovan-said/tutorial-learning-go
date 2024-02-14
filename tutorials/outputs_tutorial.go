@@ -1,3 +1,8 @@
+/*
+	- https://www.w3schools.com/go/go_output.php
+	- https://www.w3schools.com/go/go_formatting_verbs.php
+*/
+
 package main
 
 import (
@@ -32,4 +37,15 @@ func output_tutorial() {
 	whitespace is added between the arguments, and a newline is added at the
 	end */
 
+	fmt.Println(i, j)
+
+	/* The Printf() function first formats its argument based on the given
+	formatting verb and then prints them
+
+	- %v is used to print the value of the arguments
+	- %T is used to print the type of the arguments
+	*/
+
+	fmt.Printf("i has value: %v and type: %T\n", i, i)
+	fmt.Printf("j has value: %v and type: %T", j, j)
 }

@@ -1,3 +1,7 @@
+/*
+	- https://www.w3schools.com/go/go_constants.php
+*/
+
 package main
 
 import (
@@ -34,5 +38,4 @@ func constants_tutorial() {
 	fmt.Println(EG1)
 	fmt.Println(EG2)
 	fmt.Println(EG3)
-
 }

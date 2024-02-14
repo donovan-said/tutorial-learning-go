@@ -1,3 +1,9 @@
+/*
+	- https://www.w3schools.com/go/go_variables.php
+	- https://www.w3schools.com/go/go_variable_multi.php
+	- https://www.w3schools.com/go/go_variable_naming_rules.php
+*/
+
 package main
 
 import (
