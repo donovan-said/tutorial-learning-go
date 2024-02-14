@@ -1,6 +1,4 @@
-/*
-	- https://www.w3schools.com/go/go_constants.php
-*/
+// https://www.w3schools.com/go/go_constants.php
 
 package main
 

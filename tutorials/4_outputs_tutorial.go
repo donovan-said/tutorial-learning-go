@@ -1,6 +1,6 @@
 /*
-	- https://www.w3schools.com/go/go_output.php
-	- https://www.w3schools.com/go/go_formatting_verbs.php
+- https://www.w3schools.com/go/go_output.php
+- https://www.w3schools.com/go/go_formatting_verbs.php
 */
 
 package main
