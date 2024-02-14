@@ -16,3 +16,5 @@ which covers the following topics:
 - Functions
 - Struct
 - Maps
+
+All tutorial lessosn can be found in the [src](./src/) path.
