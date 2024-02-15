@@ -33,6 +33,10 @@ func functions_tutorial() {
 	in variable b) */
 	c, _ := myFunction5(5, "Hello")
 	fmt.Println(c)
+
+	testcount(1)
+
+	fmt.Println(factorial_recursion(4))
 }
 
 /* Parameters and Arguments
@@ -139,5 +143,48 @@ Here, myFunction() returns one integer (result) and one string (txt1)
 func myFunction5(x int, y string) (result int, txt1 string) {
 	result = x + x
 	txt1 = y + " World!"
+	return
+}
+
+//------------------------------------------------------------------------------
+
+/* Recursion
+
+Go accepts recursion functions. A function is recursive if it calls itself and
+reaches a stop condition.
+
+In the following example, testcount() is a function that calls itself. We use
+the x variable as the data, which increments with 1 (x + 1) every time we
+recurse. The recursion ends when the x variable equals to 11 (x == 11).
+*/
+
+func testcount(x int) int {
+	if x == 11 {
+		return 0
+	}
+	fmt.Println(x)
+	return testcount(x + 1)
+}
+
+/*
+Recursion is a common mathematical and programming concept. This has the benefit
+of meaning that you can loop through data to reach a result.
+
+The developer should be careful with recursion functions as it can be quite easy
+to slip into writing a function which never terminates, or one that uses excess
+amounts of memory or processor power. However, when written correctly recursion
+can be a very efficient and mathematically-elegant approach to programming.
+
+In the following example, factorial_recursion() is a function that calls itself.
+We use the x variable as the data, which decrements (-1) every time we recurse.
+The recursion ends when the condition is not greater than 0 (i.e. when it is 0).
+*/
+
+func factorial_recursion(x float64) (y float64) {
+	if x > 0 {
+		y = x * factorial_recursion(x-1)
+	} else {
+		y = 1
+	}
 	return
 }
