@@ -5,9 +5,10 @@ package main
 import "fmt"
 
 func arrays_tutorial() {
-	/* In Go, there are two ways to declare an array
-	- With the var keyword
-	- With the := sign
+	/*
+		In Go, there are two ways to declare an array
+		- With the var keyword
+		- With the := sign
 	*/
 
 	var arr1 = [3]int{1, 2, 3}
@@ -29,20 +30,22 @@ func arrays_tutorial() {
 	fmt.Println(prices[1])
 	fmt.Println(prices[2])
 
-	/* You can also change the value of a specific array element by referring to
-	the index number.
+	/*
+		You can also change the value of a specific array element by referring
+		to the index number.
 
-	This example shows how to change the value of the third element in the
-	prices array
+		This example shows how to change the value of the third element in the
+		prices array
 	*/
 
 	prices[2] = 50
 	fmt.Println(prices)
 
-	/* If an array or one of its elements has not been initialized in the code,
-	it is assigned the default value of its type.
+	/*
+		If an array or one of its elements has not been initialized in the code,
+		it is assigned the default value of its type.
 
-	The default value for int is 0, and the default value for string is ""
+		The default value for int is 0, and the default value for string is ""
 	*/
 
 	arr5 := [5]int{}              //not initialized
@@ -53,11 +56,12 @@ func arrays_tutorial() {
 	fmt.Println(arr6)
 	fmt.Println(arr7)
 
-	/* It is possible to initialize only specific elements in an array.
+	/*
+		It is possible to initialize only specific elements in an array.
 
-	This example initializes only the second and third elements of the array
-	- 1:10 means: assign 10 to array index 1 (second element).
-	- 2:40 means: assign 40 to array index 2 (third element).
+		This example initializes only the second and third elements of the array
+		- 1:10 means: assign 10 to array index 1 (second element).
+		- 2:40 means: assign 40 to array index 2 (third element).
 	*/
 
 	arr8 := [5]int{1: 10, 2: 40}

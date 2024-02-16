@@ -31,6 +31,9 @@ which covers the following topics:
     - Nested
     - Range
 - Functions
+    - Parameters and Arguments
+    - Return Values
+    - Recursion
 - Struct
 - Maps
 

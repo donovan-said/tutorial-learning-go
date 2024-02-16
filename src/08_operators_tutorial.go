@@ -18,8 +18,11 @@ func operators_tutorial() {
 	var a = 15 + 25
 	fmt.Println(a)
 
-	/* Although the + operator is often used to add together two values, it can also be used to add together a variable
-	and a value, or a variable and another variable */
+	/*
+		Although the + operator is often used to add together two values, it can
+		also be used to add together a variable and a value, or a variable and
+		another variable
+	*/
 
 	var (
 		sum1 = 100 + 50    // 150 (100 + 50)
@@ -28,12 +31,13 @@ func operators_tutorial() {
 	)
 	fmt.Println(sum3)
 
-	/* Assignment Operators
+	/*
+		Assignment Operators
 
-	Assignment operators are used to assign values to variables.
+		Assignment operators are used to assign values to variables.
 
-	In the example below, we use the assignment operator (=) to assign the value
-	10 to a variable called x
+		In the example below, we use the assignment operator (=) to assign the
+		value 10 to a variable called x
 	*/
 
 	var x = 10
@@ -43,13 +47,15 @@ func operators_tutorial() {
 	x += 5
 	fmt.Println(x)
 
-	/* Comparison Operators
+	/*
+		Comparison Operators
 
-	Comparison operators are used to compare two values.
+		Comparison operators are used to compare two values.
 
-	Note: The return value of a comparison is either true (1) or false (0).
+		Note: The return value of a comparison is either true (1) or false (0).
 
-	In the following example, we use the greater than operator (>) to find out if 5 is greater than 3
+		In the following example, we use the greater than operator (>) to find
+		out if 5 is greater than 3
 	*/
 
 	var c = 5

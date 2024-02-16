@@ -43,10 +43,12 @@ func slices_tutorial() {
 	fmt.Printf("length = %d\n", len(myslice5))
 	fmt.Printf("capacity = %d\n", cap(myslice5))
 
-	/*You can access a specific slice element by referring to the index number.
+	/*
+		You can access a specific slice element by referring to the index
+		number.
 
-	In Go, indexes start at 0. That means that [0] is the first element, [1] is
-	the second element, etc
+		In Go, indexes start at 0. That means that [0] is the first element, [1]
+		is the second element, etc
 	*/
 
 	prices := []int{10, 20, 30}
@@ -67,10 +69,11 @@ func slices_tutorial() {
 	fmt.Printf("length = %d\n", len(prices))
 	fmt.Printf("capacity = %d\n", cap(prices))
 
-	/* To append all the elements of one slice to another slice, use the
-	append() function
+	/*
+		To append all the elements of one slice to another slice, use the
+		append() function
 
-	This example shows how to append one slice to another slice
+		This example shows how to append one slice to another slice
 	*/
 
 	myslice7 := []int{1, 2, 3}
@@ -81,9 +84,10 @@ func slices_tutorial() {
 	fmt.Printf("length = %d\n", len(myslice9))
 	fmt.Printf("capacity = %d\n", cap(myslice9))
 
-	/* Unlike arrays, it is possible to change the length of a slice
+	/*
+		Unlike arrays, it is possible to change the length of a slice
 
-	This example shows how to change the length of a slice
+		This example shows how to change the length of a slice
 	*/
 
 	arr2 := [6]int{9, 10, 11, 12, 13, 16} // An array
@@ -102,17 +106,19 @@ func slices_tutorial() {
 	fmt.Printf("length = %d\n", len(myslice12))
 	fmt.Printf("capacity = %d\n", cap(myslice12))
 
-	/* Memory Efficiency
+	/*
+		Memory Efficiency
 
-	When using slices, Go loads all the underlying elements into the memory.
+		When using slices, Go loads all the underlying elements into the memory.
 
-	If the array is large and you need only a few elements, it is better to copy
-	those elements using the copy() function.
+		If the array is large and you need only a few elements, it is better to
+		copy those elements using the copy() function.
 
-	The copy() function creates a new underlying array with only the required
-	elements for the slice. This will reduce the memory used for the program.
+		The copy() function creates a new underlying array with only the
+		required elements for the slice. This will reduce the memory used for
+		the program.
 
-	This example shows how to use the copy() function
+		This example shows how to use the copy() function
 	*/
 
 	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}

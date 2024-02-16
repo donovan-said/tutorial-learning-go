@@ -78,7 +78,8 @@ func familyNameMain2() {
 
 //------------------------------------------------------------------------------
 
-/* Function Returns
+/*
+Function Returns
 
 If you want the function to return a value, you need to define the data type of
 the return value (such as int, string, etc), and also use the return keyword
@@ -97,7 +98,8 @@ func myFunction(x int, y int) int {
 
 //------------------------------------------------------------------------------
 
-/* Named Return Values
+/*
+Named Return Values
 
 In Go, you can name the return values of a function.
 

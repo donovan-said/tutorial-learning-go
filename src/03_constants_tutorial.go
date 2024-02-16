@@ -12,10 +12,11 @@ func constants_tutorial() {
 
 	fmt.Println(PI)
 
-	/* There are two types of constants:
+	/*
+		There are two types of constants:
 
-	- Typed constants
-	- Untyped constants
+		- Typed constants
+		- Untyped constants
 	*/
 
 	// Typed constants are declared with a defined type
