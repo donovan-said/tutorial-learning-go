@@ -25,8 +25,9 @@ type Person struct {
 }
 
 func struct_tutorial() {
-	/* To access any member of a structure, use the dot operator (.) between the
-	structure variable name and the structure member
+	/*
+		To access any member of a structure, use the dot operator (.) between
+		the structure variable name and the structure member
 	*/
 
 	var person1 Person
