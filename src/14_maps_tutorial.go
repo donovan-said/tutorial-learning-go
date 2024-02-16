@@ -217,4 +217,11 @@ func maps_tutorial() {
 		a specific order, you must have a separate data structure that specifies
 		that order.
 	*/
+
+	var n []string // defining the order
+	n = append(n, "one", "two", "three", "four")
+
+	for _, element := range n { // loop with defined order
+		fmt.Printf("%v : %v, ", element, l[element])
+	}
 }
